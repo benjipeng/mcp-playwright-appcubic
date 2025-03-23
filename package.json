@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
+    "start": "node dist/index.js",
     "prepare": "npm run build",
     "watch": "tsc --watch",
     "test": "jest --testMatch=\"<rootDir>/src/__tests__/**/*.test.ts\"",
